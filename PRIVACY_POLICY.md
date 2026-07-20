@@ -1,0 +1,63 @@
+# Privacy Policy for Scroll2Top
+
+**Last Updated:** July 20, 2026
+
+Welcome to **Scroll2Top** ("we," "our," "us"). We are committed to protecting your privacy. This Privacy Policy explains our practices regarding any information collected, used, or processed when you use the Scroll2Top mobile application (the "App"), with package name **com.aistudio.scroll2top.uvwqzp**.
+
+---
+
+## 1. 100% Offline & Private (No Data Collection)
+
+Scroll2Top is designed as an offline-first, local utility tool. 
+- **No Personal Data Collection:** We do **NOT** collect, harvest, store, or transmit any personal information, usage statistics, device identifiers, or user activity.
+- **No Network Permissions:** The App does not have internet access or network capabilities. Any configuration you set (scroll speed, button sizing, opacity) remains stored locally on your device in standard secure Shared Preferences.
+- **No Third-Party SDKs:** The App does not integrate any third-party tracking, analytics, or advertising SDKs.
+
+---
+
+## 2. Prominent Disclosure: Accessibility Service Usage (Required by Google Play)
+
+Scroll2Top requires the **Android AccessibilityService API** to perform its core functionality.
+
+### Why do we need this permission?
+Our App displays an interactive, overlay scroll-pill on your screen (at the top, or configured alignments). When you tap this pill, the Accessibility Service executes a **scroll-up swipe gesture** on the active foreground application on your behalf. This is the only way Android allows an app to trigger scroll gestures in other applications.
+
+### What data does the Accessibility Service access?
+- **None.** The service strictly listens to click/tap events on its *own* overlay visual components to trigger the scroll action.
+- It **does not** monitor, log, read, or collect text inputs, keystrokes, personal details, notifications, or any content displayed on your screen.
+- It **does not** track your interactions with other apps.
+
+---
+
+## 3. Data Security
+
+Because the App stores all configurations locally and has no network/upload capabilities, your data is completely secure and cannot be intercepted or leaked.
+
+---
+
+## 4. Children’s Privacy
+
+The App is safe for users of all ages as it is a pure hardware/software accessibility utility and does not collect any data from children or adults.
+
+---
+
+## 5. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. Since the App is entirely offline, we recommend reviewing this policy at our hosting location if you have questions.
+
+---
+
+## 6. Contact Us
+
+If you have any questions or suggestions about this Privacy Policy, please contact us at:
+- **Email:** hemanthnarayanan123@gmail.com
+- **Package Name:** com.aistudio.scroll2top.uvwqzp
+- **App Name:** Scroll2Top
+
+---
+
+### How to host this Privacy Policy:
+1. Create a free repository on [GitHub](https://github.com/) (e.g., named `scroll2top-privacy`).
+2. Add this file as `README.md` or `index.html`.
+3. Enable **GitHub Pages** in the repository settings to get a free, public URL (e.g., `https://username.github.io/scroll2top-privacy`).
+4. Copy-paste that URL into the **Privacy Policy** field in your Google Play Console dashboard under **App Content**.
